@@ -1,1 +1,1 @@
-# FIUNA-Research-Internship
+# FI-UNA: Research Internship
