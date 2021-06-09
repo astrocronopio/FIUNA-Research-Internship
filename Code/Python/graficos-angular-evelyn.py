@@ -24,7 +24,7 @@ def main():
 
     countsplot=[]
     
-    countsplots=[[],[],[],[],[],[],[],[],[],[],[]]
+    countsplots=[[] for j in range(11)]
     
     timesplot=[]
 

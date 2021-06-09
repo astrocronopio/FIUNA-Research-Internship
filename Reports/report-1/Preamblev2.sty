@@ -1,0 +1,73 @@
+
+%version 2: \usepackage{hyperref}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Para las ecuaciones siempre es Ec.(n).
+%Para las figuras siempre es Fig.n, incluso en el caption de la figura. Tambien las Tablas
+%Para las referencias es [n]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[
+reprint,
+%notitlepage,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%showpacs,preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+%11 pt,
+amsmath,
+amssymb,
+%aps,
+pra,
+%prb,
+%rmp,
+%tightenlines %esto hizo el milagro de sacar los espacios en blancos estocásticos (?)
+%prstab,
+%prstper,
+%floatfix,\textbf{}
+]{revtex4-1} %Instalar primero para usarlo. Paquete malo.
+
+%\documentclass[onecolumn, aps, amsmath,amssymb ]{article}
+\usepackage{lipsum}  
+\usepackage{graphicx}% Include figure files
+\usepackage{subfig}
+\usepackage{braket}
+\usepackage{comment} %comment large chunks of text
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+%\usepackage{hyperref}% add hypertext capabilities
+\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+\usepackage{mathtools} %% Para el supraíndice
+
+\usepackage[nice]{nicefrac}
+
+%%%%%%%El Señor Español%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc} %acento
+\usepackage[
+spanish, %El lenguaje.
+es-tabla, %La tabla y no cuadro.
+activeacute, %El acento.
+es-nodecimaldot %Punto y no coma con separador de números
+]{babel}
+\usepackage{microtype} %para hacerlo más bonito :33 como vos (?) 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% Para que las imágenes se queden dónde las quiero (?
+\usepackage{float}
+%%%%%%%%%%
+\usepackage{enumitem}
+\usepackage{hyperref} % Para usar \url
+
+%%%%%%%%Cambia a Fig de Figure%%%%%%%%%%
+\makeatletter
+\renewcommand{\fnum@figure}{Fig. \thefigure} 
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\raggedbottom
