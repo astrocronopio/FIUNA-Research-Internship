@@ -2,11 +2,11 @@
 
 # Se  ejecuta como bash vertical_muons.sh
 
-# datafile="../../../Local-Machine/Datasets/muones_30-min_bin.txt"
-# output_file="../../../Local-Machine/Datasets/vertical_total_muons_30-min_bin.txt"
+# datafile="../../../Local-Machine/Datasets/Muons/muones_30-min_bin.txt"
+# output_file="../../../Local-Machine/Datasets/Muons/vertical_total_muons_30-min_bin.txt"
 
-# datafile="../../../Local-Machine/Datasets/muones_1h_bin.txt"
-# output_file="../../../Local-Machine/Datasets/vertical_total_muons_1h_bin.txt"
+datafile="../../../Local-Machine/Datasets/Muons/muones_1h_bin.txt"
+output_file="../../../Local-Machine/Datasets/Muons/vertical_total_muons_1h_bin.txt"
 
 
 # $1 - column: UTC time, interval 10 seconds
